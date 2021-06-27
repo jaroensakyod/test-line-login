@@ -46,7 +46,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       <div style={{ textAlign: "center" }}>
-        <h1>React with LINE Login test bot43</h1>
+        <h1>React with LINE Login test bot44</h1>
         <hr/>
         <img src={pictureUrl} width="300px" height="300px"/>
         <p style={{ textAlign: "left", marginLeft: "20%", marginRight: "20%", wordBreak: "break-all" }}><b>id token: </b> {idToken}</p>
