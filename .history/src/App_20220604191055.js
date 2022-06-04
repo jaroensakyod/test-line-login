@@ -14,9 +14,9 @@ function App() {
 
   const logout = () => {
     liff.logout();
-    location.reload();
-    
-    
+    window.location.reload();
+    android.location.reload();
+    os.location.reload();
   }
 
   const initLine = () => {
