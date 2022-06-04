@@ -10,7 +10,7 @@ function App() {
   const [displayName, setDisplayName] = useState("");
   const [statusMessage, setStatusMessage] = useState("");
   const [userId, setUserId] = useState("");
-  const [email, setEmail] = useState("");
+  const [email, setemail] = useState("");
 
   const logout = () => {
     liff.logout();
@@ -35,7 +35,7 @@ function App() {
       setDisplayName(profile.displayName);
       setPictureUrl(profile.pictureUrl);
       setStatusMessage(profile.statusMessage);
-      setEmail(liff.getDecodedIDToken().email);
+      setgeemail(profile.email);
       setUserId(profile.userId);
     }).catch(err => console.error(err));
   }
